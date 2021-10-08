@@ -6,7 +6,7 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+*.code-workspace
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 *.zip
@@ -16,13 +16,14 @@
 [Rr]elease/
 [Rr]eleases/
 Build
-
+/lib
 bin/
+bin_old/
 bld/
-
+out/
 [Oo]bj/
 [Ll]og/
-
+.vscode/
 Tool/
 Launcher/
 optool/
@@ -281,7 +282,7 @@ __pycache__/
 /tool_ex
 !/doc/*.chm
 
-/doc
+/doc2
 
 /Ref
 
