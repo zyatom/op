@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="生成的文件">
+      <UniqueIdentifier>{6f00b8f4-4c01-4755-a598-aa5f21843403}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{dac40974-a04d-4dc6-a80d-0f3b9c3d3ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinApi">
+      <UniqueIdentifier>{ae19fd78-cb4a-4611-ac40-f1676abfec78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cmd">
+      <UniqueIdentifier>{bce34cc4-c9d5-4a8e-906b-81183d7009de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{3166043b-12be-4f67-8084-67f6bccb7c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Pipe">
+      <UniqueIdentifier>{e73fe18a-063a-4a50-b6a7-81c1d435404a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background">
+      <UniqueIdentifier>{a0da737d-06e0-4b05-a9e6-318ff3203902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Mouse">
+      <UniqueIdentifier>{42956553-2852-44e7-8d6a-a85628b0c3b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Keypad">
+      <UniqueIdentifier>{05013c1a-094a-4c58-9bba-16cb454da5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{1a017bf0-4f0a-4204-b494-0a9286be8cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process\Inject">
+      <UniqueIdentifier>{a28a6d92-5262-4cb6-8d90-39de3b59d079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd_party">
+      <UniqueIdentifier>{ceeb115d-59ed-4194-a639-a4c6733c4cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProc">
+      <UniqueIdentifier>{497097eb-2fb2-43a1-b0ba-398c038b4314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Display">
+      <UniqueIdentifier>{acf387f7-b155-472c-a34b-628ffb0e5f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Display\Gdi">
+      <UniqueIdentifier>{6be59f0f-5140-4234-93d4-a467a3b24fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Hook">
+      <UniqueIdentifier>{f5ed6785-de8e-4af0-9025-589644dcf89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Display\DX_Opengl">
+      <UniqueIdentifier>{00fc6957-34c4-499b-b4b0-f66ed59ebec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProc\Image">
+      <UniqueIdentifier>{35253ea1-c762-4acc-b285-85271c5cae43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{2e27773d-b0be-4940-b18d-70ce0cc221c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\Bit">
+      <UniqueIdentifier>{4b0c3175-3ca6-4736-ba45-3d277e788b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libop">
+      <UniqueIdentifier>{cfd85035-dbb8-416c-9f11-e7ebb83ee607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{718db8c8-b455-4ffa-95b4-99dcd3935625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Keypad\winkeypad">
+      <UniqueIdentifier>{c7423282-1f6e-43f8-bf2e-435637f2b233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background\Display\Directx">
+      <UniqueIdentifier>{fb882fa3-8feb-4580-983a-05d65a8ae592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{a6c17520-a3c3-4635-9915-db3409780610}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="op.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="compreg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OpInterface.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApi.cpp">
+      <Filter>WinApi</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>Tools\Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Bkmouse.cpp">
+      <Filter>Background\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoc.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Bkkeypad.cpp">
+      <Filter>Background\Keypad</Filter>
+    </ClCompile>
+    <ClCompile Include="Injecter.cpp">
+      <Filter>Process\Inject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bkbase.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Bkgdi.cpp">
+      <Filter>Background\Display\Gdi</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProc.cpp">
+      <Filter>ImageProc</Filter>
+    </ClCompile>
+    <ClCompile Include="query_api.cpp">
+      <Filter>Background\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="bkdx_gl.cpp">
+      <Filter>Background\Display\DX_Opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd_party\src\kiero.cpp">
+      <Filter>3rd_party</Filter>
+    </ClCompile>
+    <ClCompile Include="libop.cpp">
+      <Filter>libop</Filter>
+    </ClCompile>
+    <ClCompile Include="globalVar.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="helpfunc.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryEx.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="op_i.c">
+      <Filter>生成的文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xhook.cpp">
+      <Filter>Background\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="winkeypad.cpp">
+      <Filter>Background\Keypad\winkeypad</Filter>
+    </ClCompile>
+    <ClCompile Include="IDisplay.cpp">
+      <Filter>Background\Display</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="compreg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OpInterface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="WinApi.h">
+      <Filter>WinApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>Tools\Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmder.h">
+      <Filter>Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Bkmouse.h">
+      <Filter>Background\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoc.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Bkkeypad.h">
+      <Filter>Background\Keypad</Filter>
+    </ClInclude>
+    <ClInclude Include="Injecter.h">
+      <Filter>Process\Inject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bkbase.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Bkgdi.h">
+      <Filter>Background\Display\Gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProc.h">
+      <Filter>ImageProc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bitfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\color.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dict.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.hpp">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="query_api.h">
+      <Filter>Background\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="bkdx_gl.h">
+      <Filter>Background\Display\DX_Opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd_party\include\kiero.h">
+      <Filter>3rd_party</Filter>
+    </ClInclude>
+    <ClInclude Include="libop.h">
+      <Filter>libop</Filter>
+    </ClInclude>
+    <ClInclude Include="optype.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="globalVar.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="helpfunc.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryEx.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="op_i.h">
+      <Filter>生成的文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xhook.h">
+      <Filter>Background\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="winkeypad.h">
+      <Filter>Background\Keypad\winkeypad</Filter>
+    </ClInclude>
+    <ClInclude Include="IDisplay.h">
+      <Filter>Background\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="frameInfo.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="op.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="op.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="op.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="OpInterface.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="op.idl">
+      <Filter>源文件</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>
